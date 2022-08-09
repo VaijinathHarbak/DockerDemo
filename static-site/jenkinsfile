@@ -9,7 +9,7 @@ pipeline {
                     cleanImages: false, 
                     cleanupWithJenkinsJobDelete: false,
                     //cloud: '',
-                    dockerFileDirectory: 'C:\\Users\\mattk\\OneDrive\\Desktop\\Jenk2Dock', 
+                    dockerFileDirectory: 'static-site/', 
                     //fromRegistry: [], 
                     //pushCredentialsId: '',
                     pushOnSuccess: false,
