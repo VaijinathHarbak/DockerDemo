@@ -8,10 +8,7 @@ pipeline {
                     $class: 'DockerBuilderPublisher',
                     cleanImages: false, 
                     cleanupWithJenkinsJobDelete: false,
-                    //cloud: '',
                     dockerFileDirectory: 'DockerDemo/static-site/', 
-                    //fromRegistry: [], 
-                    //pushCredentialsId: '',
                     pushOnSuccess: false,
                     tagsString: 'jenkinsdidit'
                     ]
