@@ -9,7 +9,7 @@ pipeline {
                     cleanImages: false, 
                     cleanupWithJenkinsJobDelete: false,
                     //cloud: '',
-                    dockerFileDirectory: 'static-site/', 
+                    dockerFileDirectory: 'DockerDemo/static-site/', 
                     //fromRegistry: [], 
                     //pushCredentialsId: '',
                     pushOnSuccess: false,
